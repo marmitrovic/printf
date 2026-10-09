@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putchar_len.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marko <emarkomitrovic@gmail.com>           +#+  +:+       +#+        */
+/*   By: mmitrovi <mmitrovi@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/08/21 18:23:52 by marko             #+#    #+#             */
-/*   Updated: 2026/08/21 18:23:53 by marko            ###   ########.fr       */
+/*   Created: 2026/09/25 09:08:52 by mmitrovi          #+#    #+#             */
+/*   Updated: 2026/09/25 09:09:19 by mmitrovi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
