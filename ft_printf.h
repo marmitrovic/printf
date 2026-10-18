@@ -6,7 +6,7 @@
 /*   By: mmitrovi <mmitrovi@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/25 09:09:10 by mmitrovi          #+#    #+#             */
-/*   Updated: 2026/09/25 09:09:13 by mmitrovi         ###   ########.fr       */
+/*   Updated: 2026/10/18 15:39:21 by mmitrovi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 # include <stdarg.h>
 # include <unistd.h>
 # include <stdlib.h>
+# include <stdio.h>
 
 int	ft_printf(const char *str, ...);
 int	ft_putchar_len(char c);
