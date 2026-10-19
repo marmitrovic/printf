@@ -6,7 +6,7 @@
 /*   By: mmitrovi <mmitrovi@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/25 09:08:57 by mmitrovi          #+#    #+#             */
-/*   Updated: 2026/10/19 12:11:41 by mmitrovi         ###   ########.fr       */
+/*   Updated: 2026/10/19 12:18:08 by mmitrovi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -82,7 +82,7 @@ int	ft_printf(const char *str, ...)
 	return (letter_counter);
 }
 
-/*	int	main(void)
+	int	main(void)
 {
 	int	res_ft;
 	int	res_std;
@@ -142,4 +142,4 @@ int	ft_printf(const char *str, ...)
 	printf("Return -> My ftprint: %d | std printf: %d\n\n", res_ft, res_std);
 
 	return (0);
-} */
+}

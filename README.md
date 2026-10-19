@@ -16,3 +16,26 @@ The project handles standard specifiers: `%c`, `%s`, `%p`, `%d`, `%i`, `%u`, `%x
 3. Run the following command at the root of the project to compile:
    ```bash
    make
+4. After that you can clear .o and .a files using:
+   ```bash
+   make clean
+   make fclean
+5. Last part is to recompile whole project from scartch with:
+   ```bash
+   make re
+6. To test my code please uncomment main from ft_printf.c and compile it like this:
+   ```bash
+   cc -Wall -Wextra -Werror ft_printf.c libftprintf.a -o test
+7. Por el fin, just start the program:
+   ```bash
+   ./test
+## Explanation
+# what should you see? 
+
+You should see comparison of my ft_printf and original printf function for each specifier. And also you should see the length of characters each function return.
+
+## Resources:
+Documentation: Man pages, Geekforgeeks, Gemini.
+Peers: git hub: Durian Sosa, Alberto, Caperale, Sebastian, cvizcain.
+
+## Thank you for your time!
