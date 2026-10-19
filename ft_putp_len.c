@@ -6,12 +6,20 @@
 /*   By: mmitrovi <mmitrovi@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/25 09:09:35 by mmitrovi          #+#    #+#             */
-/*   Updated: 2026/09/25 09:09:38 by mmitrovi         ###   ########.fr       */
+/*   Updated: 2026/10/19 12:03:48 by mmitrovi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
+/** @brief		like putnbr cuts all numbers but last recursion needs
+ * 				first number that is why I have % for first number
+ * 				numbers up to 9 just write them
+ * 				num 10 ~ 16 Subtract 10 + a, because they are letters a - f
+ * @param ptr	memory address (pointer) occupy 8 bytes and
+ * 				cant fit in one int (4bytes)
+ * @return length
+*/
 static	int	ft_putptr_hex(unsigned long ptr)
 {
 	int	len;
@@ -31,6 +39,12 @@ static	int	ft_putptr_hex(unsigned long ptr)
 	return (len);
 }
 
+/** @brief		NULL is an adress pointing nowhere has value of 0
+ * 				null is just a text which printf prints
+ * 				nil is short of latin nihil = nothing
+ * @param ptr 
+ * @return 
+*/
 int	ft_putp_len(unsigned long ptr)
 {
 	int	len;
@@ -45,12 +59,3 @@ int	ft_putp_len(unsigned long ptr)
 	len += ft_putptr_hex(ptr);
 	return (len);
 }
-
-/*
-NULL is an adress pointing nowhere has value of 0
-null is just a text which printf prints,
-if I send NULL pointer with %s (specificator) 
-nil is just a text which printf prints,
-if I send NULL pointer with %p (specificator) 
-nil is short of latin nihil = nothing
-*/
