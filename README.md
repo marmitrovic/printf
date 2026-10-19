@@ -7,6 +7,10 @@
 
 The project handles standard specifiers: `%c`, `%s`, `%p`, `%d`, `%i`, `%u`, `%x`, `%X`, and `%%`.
 
+# Doxigen Comment
+To better understand my code functions and parameters, please look at the breaf explanation in Doxigen comments.
+There you can see breaf explaination what function does, as well as an explanation of the parameters and what it returns.
+
 ---
 
 ## Instructions
@@ -37,5 +41,8 @@ You should see comparison of my ft_printf and original printf function for each 
 ## Resources:
 Documentation: Man pages, Geekforgeeks, Gemini.
 Peers: git hub: Durian Sosa, Alberto, Caperale, Sebastian, cvizcain.
+
+# AI usage:
+AI was used as a supporting tool exclusively for proofreading, spell-checking, and correcting grammar in this README file.
 
 ## Thank you for your time!
